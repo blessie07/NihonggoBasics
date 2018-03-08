@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en ja">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>日本語 Basics</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Merriweather|Merriweather+Sans|Montserrat|Open+Sans|Roboto" rel="stylesheet">
+	<!--fontawesome library-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!--nimte.css-->
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+<body>
+
+<!--navbar-->
+
+<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+		    <div class="navbar-header">
+		    	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		        	<span class="icon-bar"></span>
+		        	<span class="icon-bar"></span>
+		        	<span class="icon-bar"></span> 
+		      	</button>
+		      	<a class="navbar-brand" href="index.html" id="logo">日本語 BASICS</a>
+		    </div>
+		    
+		    <div class="collapse navbar-collapse" id="myNavbar"> 
+		      	<ul class="nav navbar-nav navbar-right">
+			        <li><a href="#"><span class="btn btn-success" id="myBtn">Log In</span></a></li>
+              		<li><a href="#"><span class="btn btn-success" id="myBtn1">Sign Up</span></a></li>
+		      	</ul>
+		    </div>
+		</div>
+	</nav>
+<!--navbar end-->
+
+<div class="container">
+
+	<div class="row" id="search">
+
+		<div class="col-sm-4 col-sm-offset-8">
+			<form action="" class="search-form">
+                <div class="form-group has-feedback">
+            		<label for="search" class="sr-only">Search</label>
+            		<input type="text" class="form-control" name="search" id="search" placeholder="search">
+              		<span class="glyphicon glyphicon-search form-control-feedback"></span>
+            	</div>
+            </form>
+		</div>
+		
+	</div>
+
+
+	<div class="row">
+	<!--left panel-->
+		<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+			<div class="left-two">
+				<h1 class="animated slideInLeft"><strong><span  class="write" id="title">Basic Expressions (基本的な表現)</span></strong></h1><br>
+
+				<img class="alphabet"src="assets/tea-ceremony.jpg"><br><br>
+				<p class="par">In this chapter, we’re going to learn explore other useful expressions and grammar for various situations. In addition, we are also going to get a lot more reading and writing practice to expand our power of expression.</p>
+
+				<p><small><em>Source: http://www.guidetojapanese.org/learn/grammar/basic</em></small></p>
+			</div><br><br>
+
+			
+			<h1 class="write1"><strong>Greetings</strong></h1>
+
+			<p class="par">Greetings like “good morning” or “good afternoon” are incredibly important in Japanese. As the Japanese culture is more formal, going through the ritual of greeting another person is an important way of showing respect. Japanese tend to bow while saying “Ohayō gozaimasu”, “Konnichiwa” or “Konbanwa” depending on the time of the day. Bows can be divided into informal-15 degree angle, formal-30 degree angle, and very formal, deeper angle bows. You are expected to greet every person individually, even if they’re in a group. That means that if you’re walking along the road and pass a group of five people, you’ll have to say, “Konnichiwa,” and bow five times!</p>
+			<p><small><em>Source: https://www.rocketlanguages.com/japanese/salutations/japanese-greetings</em></small></p>
+ 
+			<ul class="timeline">
+			    <li>
+				    <div class="timeline-badge info"><i class="glyphicon glyphicon-check"></i></div>
+				    	<div class="timeline-panel">
+				        	<div class="timeline-heading">
+				          		<h4 class="timeline-title"><strong>Good Morning<span class="glyphicon glyphicon-play"></span></strong></h4>
+
+				        	</div>
+				        	<div class="timeline-body">
+					        	<p>おはよう　ございます</p>
+								<p>お早う御座います</p>
+								<p>Ohayō gozaimasu</p><br>		
+								<audio id="audio" src="assets/track1.mp3" controls=""></audio>						
+				        	</div>
+				     	</div>
+			    </li>
+
+			    <li class="timeline-inverted">
+				    <div class="timeline-badge danger"><i class="glyphicon glyphicon-check"></i></div>
+				    	<div class="timeline-panel">
+					        <div class="timeline-heading">
+					          	<h4 class="timeline-title"><strong>Hello/Good Day  <span class="glyphicon glyphicon-play"></span></strong></h4>
+					        </div>
+					        <div class="timeline-body">
+					          	<p>こんにちは</p>
+								<p>今日は</p>
+								<p>Konnichiwa</p><br>
+								<audio id="audio" src="assets/track2.mp3" controls=""></audio>
+							</div>
+				      </div>
+			    </li>
+
+			    <li>
+			      	<div class="timeline-badge warning"><i class="glyphicon glyphicon-check"></i></div>
+				      	<div class="timeline-panel">
+					        <div class="timeline-heading">
+					          	<h4 class="timeline-title"><strong>Good Evening  <span class="glyphicon glyphicon-play"></span></strong></h4>
+					        </div>
+					        <div class="timeline-body">
+					          	<p>こんばんは</p>
+								<p>Konbanwa</p><br>
+								<audio id="audio" src="assets/track3.mp3" controls=""></audio>
+							</div>
+				      	</div>
+			     </li>
+
+			     <li class="timeline-inverted">
+				    <div class="timeline-badge primary"><i class="glyphicon glyphicon-check"></i></div>
+				    	<div class="timeline-panel">
+					        <div class="timeline-heading">
+					          	<h4 class="timeline-title"><strong>Good night  <span class="glyphicon glyphicon-play"></span></strong></h4>
+					        </div>
+					        <div class="timeline-body">
+					          	<p>おやすみ　なさい</p>
+								<p>Oyasumi nasai</p><br>
+								<audio id="audio" src="assets/track4.mp3" controls=""></audio>
+							</div>
+				      </div>
+			    </li>
+			</ul>
+
+			  <h1 class="write1"><strong>Useful Expressions</strong></h1>
+
+				<p class="par">Here are some other basic Japanese expressions that will surely help you for everyday basic conversations!</p>
+				
+
+				<ul class="timeline">
+			    <li>
+			      <div class="timeline-badge primary"><i class="glyphicon glyphicon-check"></i></div>
+			      <div class="timeline-panel">
+			        <div class="timeline-heading">
+			          <h4 class="timeline-title"><strong>See you later.  <span class="glyphicon glyphicon-play"></span></strong></h4>
+			        </div>
+			        <div class="timeline-body">
+			        	<p>では また。</p>
+						<p>Dewa mata.</p><br>
+						<audio id="audio" src="assets/track5.mp3" controls=""></audio>
+					</div>
+			      </div>
+			    </li>
+			    <li class="timeline-inverted">
+			      <div class="timeline-badge warning"><i class="glyphicon glyphicon-check"></i></div>
+			      <div class="timeline-panel">
+			        <div class="timeline-heading">
+			          <h4 class="timeline-title"><strong>How are you> <span class="glyphicon glyphicon-play"></span></strong></h4>
+			        </div>
+			        <div class="timeline-body">
+			          	<p>元気ですか</p>
+						<p>Genki desu ka?</p><br>
+						<audio id="audio" src="assets/track6.mp3" controls=""></audio>
+					</div>
+			      </div>
+			    </li>
+			    <li>
+			      <div class="timeline-badge danger"><i class="glyphicon glyphicon-check"></i></div>
+			      <div class="timeline-panel">
+			        <div class="timeline-heading">
+			          <h4 class="timeline-title"><strong>What’s up?  <span class="glyphicon glyphicon-play"></span></strong></h4>
+			        </div>
+			        <div class="timeline-body">
+			          	<p>なにか あった</p>
+						<p>Nanika atta?</p><br>
+						<audio id="audio" src="assets/track7.mp3" controls=""></audio>
+					</div>
+			      </div>
+			     </li>
+			     </ul>
+		</div><!--/left panel-->
+
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><!-- right panel-->
+
+			<div class="row" id="dia">
+				<div class="col-sm-12">
+					<div class="dialogue" >
+						<h4 class="learn"><strong>JAPANESE DIALOGUE</strong></h4>
+						<div class="row">
+							<div class="col-xs-4">
+								<em class="dia"><strong><span class="glyphicon glyphicon-user"> Sumisu-san:</span></strong><em>
+							</div>
+
+							<div class="col-xs-8">
+								Ohayō gozaimasu.<br><em>Good morning.</em><br>
+								<em>おはようございます。</em><br>
+								Eigo o hanasemasu ka. <br><em>Do you speak English?<br>
+								えいごをはなせますか</em>。
+							</div>
+						</div><br>
+
+						<div class="row" id="row1">
+							<div class="col-xs-4">
+								<em class="dia"><span class="glyphicon glyphicon-apple"> Ten-in:</span></em>
+							</div>
+
+							<div class="col-xs-8">
+								Sumimasen. <br><em>I'm sorry.</em><br><em>すみません</em><br>
+								Eigo wa hanasemasen. <br><em>I do not speak English.<br>
+								えいごは　はなせません。</em>。
+							</div>
+						</div><br>
+
+						<div class="row">
+							<div class="col-xs-4">
+								<em class="dia"><span class="glyphicon glyphicon-user"> Sumisu-san:</span></em>
+							</div>
+
+							<div class="col-xs-8">
+								Watashi wa nihongo ga sukoshi shika hanasemasen.  <br><em>Unfortunately, I speak only a little Japanese.</em><br><em>わたしは　にほんごがすこししかはなせません。</em>
+							</div>
+						</div><br>
+
+						<div class="row" id="row1">
+							<div class="col-xs-4" >
+								<em class="dia"><span class="glyphicon glyphicon-apple"> Ten-in:</span></em>
+							</div>
+
+							<div class="col-xs-8">
+								Dai jōbu desu.<br><em>That's all right.</em><br><em>だいじょうぶです。</em><br>
+								Wakarimasu.<br><em>I understand you.</em><br><em>わかります</em>
+							</div>
+						</div>
+					</div><br><br>
+
+
+					<p><strong class="learn">LEARN MORE BASIC EXPRESSIONS!</strong></p>
+
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive" width="854" height="480" src="https://www.youtube.com/embed/BvH7T5vKTlc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						</div><br><br>
+
+					<div class="panel-group">
+					  	<div class="panel panel-success">
+					    	<div class="panel-heading">
+					      		<h4 class="panel-title">
+					        	<a data-toggle="collapse" href="#collapse1">Resources</a>
+					      		</h4>
+					    	</div>
+					    	<div id="collapse1" class="panel-collapse collapse">
+						      	<ul class="list-group">
+						        	<li class="list-group-item"><a href="http://www.guidetojapanese.org/learn/" target="_blank">Tae Kim's Guide to Japanese</a></li>
+						        	<li class="list-group-item"><a href="https://www.japanesepod101.com/" target="_blank">Japanesepod101</a></li>
+						        	<li class="list-group-item"><a href="http://marugotoweb.jp/" target="_blank">Marugoto</a></li>
+						      	</ul>
+					     	</div>
+			  			</div>
+					</div>
+				</div>
+			</div><!--end row-->
+		</div><!--end right panel-->
+	</div><!--end main row-->
+</div> <!--end container-->
+
+<!--footer-->
+<footer>
+  <hr>
+	<div class="container-fluid">
+	  	<p class="text-right">Copyright &copy; 2018 Blessie Javier | Nihonggo Basics
+			<a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+			<a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+			<a href="https://www.instagram.com/"target="_blank"><i class="fa fa-instagram"></i></a>
+			<br>
+			<a href="#" data-toggle="modal" data-target="#myModal3"><small id="disclaim">DISCLAIMER</small></a>
+		</p>
+	</div>
+</footer>
+
+<!-- /footer -->
+
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" role="dialog">
+	    <div class="modal-dialog">
+	    
+	      <!-- Modal content-->
+	      	<div class="modal-content">
+		        <div class="modal-header" style="padding:35px 50px;">
+		          	<button type="button" class="close" data-dismiss="modal">&times;</button>
+		          	<h4><span class="glyphicon glyphicon-lock"></span> Login</h4>
+		        </div>
+		        <div class="modal-body" style="padding:40px 50px;">
+		          	<form role="form">
+		            	<div class="form-group">
+				            <label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
+				            <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+		            	</div>
+			            <div class="form-group">
+			              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+			              <input type="text" class="form-control" id="psw" placeholder="Enter password">
+			            </div>
+			            <div class="checkbox">
+			              <label><input type="checkbox" value="" checked>Remember me</label>
+			            </div>
+		              	<button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
+		          	</form>
+		        </div>
+		        <div class="modal-footer">
+			        <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+			        <p>Not a member? <a href="index.html">Sign Up</a></p>
+			        <p>Forgot <a href="index.html">Password?</a></p>
+		        </div>
+	      	</div>
+	    </div>
+	</div> 
+
+	  
+	<div class="modal fade" id="myModal1" role="dialog">
+	    <div class="modal-dialog">
+
+	      <!-- Modal content-->
+		    <div class="modal-content">
+		        <div class="modal-header" style="padding:35px 50px;">
+			        <button type="button" class="close" data-dismiss="modal">&times;</button>
+			        <h4><span class="glyphicon glyphicon-log-in"></span> Sign Up</h4>
+			        <p>Please fill in this form to create an account.</p>
+		        </div>
+		        <div class="modal-body" style="padding:40px 50px;">
+			        <form role="form">
+			            <div class="form-group">
+			              	<label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
+			              	<input type="text" class="form-control" id="usrname" placeholder="Create username">
+			            </div>
+			            <div class="form-group">
+				            <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+				            <input type="text" class="form-control" id="psw" placeholder="Create Password password">
+			            </div>
+			            <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Submit</button>
+			          </form>
+			        </div>
+		        <div class="modal-footer">
+		          	<button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+		          	<p>Already have an account? <a href="index.html">Log In</a></p>
+		        </div>
+	      	</div>
+	    </div>
+	 </div> 
+
+  <!-- Modal -->
+	<div id="myModal3" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+
+		    <!-- Modal content-->
+		    <div class="modal-content">
+			    <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal">&times;</button>
+			        <h4 class="modal-title">DISCLAIMER</h4>
+			    </div>
+			    <div class="modal-body">
+			        <p>No copyright infringement is intended. This is only for educational purposes and not for profit. Some asset/s used are not owned by the developer/s unless otherwise stated; the credit goes to the owner.</p>
+			    </div>
+			    <div class="modal-footer">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			    </div>
+			</div>
+		</div>
+	</div>
+
+
+<!--jQuery Bootstrap plugins-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!--include all compiled plugins-->
+<script src="js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#myBtn").click(function(){
+        $("#myModal").modal();
+    });
+});
+</script>
+</body>
+</html>
