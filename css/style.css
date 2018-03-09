@@ -72,16 +72,21 @@ p {
   width: 100%;
 }
 
+#par {
+  font-size: 15px;
+}
 
+#image:hover {
+  border-color: white;
+}
 /* vertical-centered text */
 .text-center {
-  display: table-cell;
   text-align: center;
   vertical-align: middle;
   font-family: 'Lato', sans-serif !important;
 }
 
-.text-center h1 {
+.text-center {
   font-size: 4.5em;
   font-weight: 700;
   margin: 0;
@@ -94,10 +99,16 @@ p {
   text-shadow: 2px 2px 4px grey;
 }
 
-.center {
+.tcenter {
+  text-align: center;
+  font-family: 'Lato', sans-serif !important;
   color: white;
+  text-shadow: 2px 2px 4px grey;
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
 }
-
 
 .parallax {
     /* The image used */
@@ -141,6 +152,15 @@ p {
   color: #004972;
 }
 
+
+#myBtn{
+  margin-right: 5px;
+}
+
+#myBtn, #myBtn1 {
+  margin-top: 7px;
+  margin-left: 5px;
+}
 
 .video-container {
   position:relative;
@@ -517,6 +537,7 @@ footer .glyphicon:hover {
   margin-left: 0.5px;
   margin-right: 0.5px;
   
+
 }/*end page 4*/
 
 @media screen and (max-width: 767px) {
@@ -566,3 +587,17 @@ footer .glyphicon:hover {
 
 }
 
+
+
+@media only screen   
+and (min-device-width : 1030px)   
+and (max-device-width : 1366px)  {
+
+  .tcenter {
+    margin-top: 250px;
+  }
+
+  #center {
+    font-size: 80px;
+  }
+}

@@ -13,6 +13,10 @@
 	<!--nimte.css-->
   	<link rel="stylesheet" href="css/animate.css">
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+  	
+  	
+  	<script src="js/scrollreveal.min.js"></script>
 </head>
 <body>
 
@@ -31,8 +35,8 @@
 		    
 		    <div class="collapse navbar-collapse" id="myNavbar"> 
 		      	<ul class="nav navbar-nav navbar-right">
-			        <li><a href="#"><span class="btn btn-success" id="myBtn">Log In</span></a></li>
-              		<li><a href="#"><span class="btn btn-success" id="myBtn1">Sign Up</span></a></li>
+			        <li><button class="btn btn-success" id="myBtn">Log In</button></li>
+              		<li><button class="btn btn-success" id="myBtn1">Sign Up</button></li>
 		      	</ul>
 		    </div>
 		</div>
@@ -61,14 +65,14 @@
 				<h1 class="animated slideInLeft"><strong><span  class="write" id="title">Japanese Writing (日本語の文章)</span></strong></h1><br>
 				<img class="alphabet"src="assets/alphabet.jpg"><br><br>
 				<p class="par">The Japanese writing system is comprised of three main written <strong>scripts:</strong> Hiragana, Katakana, and Kanji. Writing might be one of the most difficult, but also fun, parts of learning Japanese. The Japanese don't use an alphabet. Instead, there are three types of scripts in Japanese: kanji, hiragana and katakana. The combination of all three is used for writing.</p>
-				<p>Source: http://www.guidetojapanese.org/learn/complete/writing</p>
+				<p><small>Source: http://www.guidetojapanese.org/learn/complete/writing</small></p>
 			</div><br><br>
 
 			<h1 id="timeline"><strong><span  class="write1">The Scripts</span></strong></h1>
  				<ul class="timeline">
 				    <li>
 				      	<div class="timeline-badge primary"><i class="glyphicon glyphicon-check"></i></div>
-				      	<div class="timeline-panel animated slideInLeft">
+				      	<div class="timeline-panel foo">
 				        	<div class="timeline-heading">
 				          		<h4 class="timeline-title"><strong class="animated slideInUp">HIRAGANA (ひらがな)</strong></h4>
 				        	</div>
@@ -82,7 +86,7 @@
 
 				    <li class="timeline-inverted">
 					    <div class="timeline-badge warning"><i class="glyphicon glyphicon-check"></i></div>
-					    	<div class="timeline-panel">
+					    	<div class="timeline-panel foo">
 					        	<div class="timeline-heading">
 					          		<h4 class="timeline-title"><strong>KATAKANA (カタカナ)</strong></h4>
 					        	</div>
@@ -96,7 +100,7 @@
 				    
 				    <li>
 					    <div class="timeline-badge danger"><i class="glyphicon glyphicon-check"></i></div>
-					    	<div class="timeline-panel">
+					    	<div class="timeline-panel foo">
 					        	<div class="timeline-heading">
 					          		<h4 class="timeline-title"><strong>KANJI (漢字)</strong></h4>
 					        	</div>
@@ -263,6 +267,10 @@
 
 <!--include all compiled plugins-->
 <script src="js/bootstrap.min.js"></script>
+<script src="js/init.js"></script>
+
+
+
 <script>
 $(document).ready(function(){
     $("#myBtn").click(function(){

@@ -13,6 +13,8 @@
 	<!--nimte.css-->
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+	<script src="js/scrollreveal.min.js"></script>
 </head>
 <body>
 
@@ -31,8 +33,8 @@
 		    
 		    <div class="collapse navbar-collapse" id="myNavbar"> 
 		      	<ul class="nav navbar-nav navbar-right">
-			        <li><a href="#"><span class="btn btn-success" id="myBtn">Log In</span></a></li>
-              		<li><a href="#"><span class="btn btn-success" id="myBtn1">Sign Up</span></a></li>
+			        <li><button class="btn btn-success" id="myBtn">Log In</button</li>
+			        <li><button class="btn btn-success" id="myBtn1">Sign Up</button></li>
 		      	</ul>
 		    </div>
 		</div>
@@ -77,7 +79,7 @@
 			<ul class="timeline">
 			    <li>
 				    <div class="timeline-badge info"><i class="glyphicon glyphicon-check"></i></div>
-				    	<div class="timeline-panel">
+				    	<div class="timeline-panel foo">
 				        	<div class="timeline-heading">
 				          		<h4 class="timeline-title"><strong>Good Morning<span class="glyphicon glyphicon-play"></span></strong></h4>
 
@@ -93,7 +95,7 @@
 
 			    <li class="timeline-inverted">
 				    <div class="timeline-badge danger"><i class="glyphicon glyphicon-check"></i></div>
-				    	<div class="timeline-panel">
+				    	<div class="timeline-panel foo">
 					        <div class="timeline-heading">
 					          	<h4 class="timeline-title"><strong>Hello/Good Day  <span class="glyphicon glyphicon-play"></span></strong></h4>
 					        </div>
@@ -108,7 +110,7 @@
 
 			    <li>
 			      	<div class="timeline-badge warning"><i class="glyphicon glyphicon-check"></i></div>
-				      	<div class="timeline-panel">
+				      	<div class="timeline-panel foo">
 					        <div class="timeline-heading">
 					          	<h4 class="timeline-title"><strong>Good Evening  <span class="glyphicon glyphicon-play"></span></strong></h4>
 					        </div>
@@ -122,7 +124,7 @@
 
 			     <li class="timeline-inverted">
 				    <div class="timeline-badge primary"><i class="glyphicon glyphicon-check"></i></div>
-				    	<div class="timeline-panel">
+				    	<div class="timeline-panel foo">
 					        <div class="timeline-heading">
 					          	<h4 class="timeline-title"><strong>Good night  <span class="glyphicon glyphicon-play"></span></strong></h4>
 					        </div>
@@ -143,7 +145,7 @@
 				<ul class="timeline">
 			    <li>
 			      <div class="timeline-badge primary"><i class="glyphicon glyphicon-check"></i></div>
-			      <div class="timeline-panel">
+			      <div class="timeline-panel foo">
 			        <div class="timeline-heading">
 			          <h4 class="timeline-title"><strong>See you later.  <span class="glyphicon glyphicon-play"></span></strong></h4>
 			        </div>
@@ -156,7 +158,7 @@
 			    </li>
 			    <li class="timeline-inverted">
 			      <div class="timeline-badge warning"><i class="glyphicon glyphicon-check"></i></div>
-			      <div class="timeline-panel">
+			      <div class="timeline-panel foo">
 			        <div class="timeline-heading">
 			          <h4 class="timeline-title"><strong>How are you> <span class="glyphicon glyphicon-play"></span></strong></h4>
 			        </div>
@@ -169,7 +171,7 @@
 			    </li>
 			    <li>
 			      <div class="timeline-badge danger"><i class="glyphicon glyphicon-check"></i></div>
-			      <div class="timeline-panel">
+			      <div class="timeline-panel foo">
 			        <div class="timeline-heading">
 			          <h4 class="timeline-title"><strong>What’s up?  <span class="glyphicon glyphicon-play"></span></strong></h4>
 			        </div>
@@ -374,10 +376,19 @@
 
 <!--include all compiled plugins-->
 <script src="js/bootstrap.min.js"></script>
+<script src="js/init.js"></script>
 <script>
 $(document).ready(function(){
     $("#myBtn").click(function(){
         $("#myModal").modal();
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("#myBtn1").click(function(){
+        $("#myModal1").modal();
     });
 });
 </script>
